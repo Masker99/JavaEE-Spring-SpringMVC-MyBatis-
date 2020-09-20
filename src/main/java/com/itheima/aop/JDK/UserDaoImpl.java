@@ -1,4 +1,4 @@
-package com.itheima.aop;
+package com.itheima.aop.JDK;
 
 //目标类
 public class UserDaoImpl implements UserDao{

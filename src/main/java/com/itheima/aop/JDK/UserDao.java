@@ -1,4 +1,4 @@
-package com.itheima.aop;
+package com.itheima.aop.JDK;
 
 public interface UserDao {
     public void addUser();

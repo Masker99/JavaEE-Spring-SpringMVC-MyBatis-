@@ -1,4 +1,4 @@
-package com.itheima.aop;
+package com.itheima.aop.JDK;
 
 //切面类：可以存在多个通知Advice（即增强的方法）
 public class MyAspect {
