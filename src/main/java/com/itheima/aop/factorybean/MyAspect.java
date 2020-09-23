@@ -7,6 +7,7 @@ public class MyAspect implements MethodInterceptor {
     @Override
     public Object invoke(MethodInvocation mi)
         throws Throwable{
+
         check_Permissions();
 
         //执行目标方法

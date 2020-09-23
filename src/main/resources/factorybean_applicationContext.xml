@@ -14,7 +14,7 @@
           class="org.springframework.aop.framework.ProxyFactoryBean">
         <!-- 3.1 指定代理实现的接口 -->
         <property name="proxyInterfaces"
-                  value="com.itheima.annotation.UserDao"/>
+                  value="com.itheima.aop.JDK.UserDao"/>
 
         <!-- 3.2 指定目标对象 -->
         <property name="target" ref="userDao"/>
