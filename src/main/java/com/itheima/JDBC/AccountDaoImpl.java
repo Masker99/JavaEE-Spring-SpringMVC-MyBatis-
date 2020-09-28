@@ -18,7 +18,7 @@ public class AccountDaoImpl implements AccountDao{
     public int addAccount(Account account){
         //定义SQL
         String sql =
-                "insert into test(userNumber,userName,balance_test) value(?,?,?)";
+                "insert into test(userNumber,userName,balance) value(?,?,?)";
 
         //定义数组来存储SQL 语句中的参数
         Object[] obj = new Object[]{
@@ -37,7 +37,7 @@ public class AccountDaoImpl implements AccountDao{
     public int updateAccount(Account account){
         //定义SQL
         String sql =
-                "update test set userName=?,balance_test=? where userNumber=?";
+                "update test set userName=?,balance=? where userNumber=?";
 
         //定义数组来存储SQL语句中的参数
         Object[] params = new Object[]{
